@@ -1,0 +1,5 @@
+D:\LogManager\LogManager\bin\Release\LogManager.dll
+D:\LogManager\LogManager\bin\Release\LogManager.pdb
+D:\LogManager\LogManager\obj\Release\LogManager.dll
+D:\LogManager\LogManager\obj\Release\LogManager.pdb
+D:\LogManager\LogManager\bin\Release\LogManager.XML
