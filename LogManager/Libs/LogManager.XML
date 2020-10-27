@@ -94,6 +94,63 @@
             將log訊息寫入至檔案
             </summary>
         </member>
+        <member name="T:LogManager.LogWriter.LogType">
+            <summary>
+            Log型態
+            </summary>
+        </member>
+        <member name="F:LogManager.LogWriter.LogType.None">
+            <summary>
+            無指定型態
+            </summary>
+        </member>
+        <member name="F:LogManager.LogWriter.LogType.Info">
+            <summary>
+            一般資訊
+            </summary>
+        </member>
+        <member name="F:LogManager.LogWriter.LogType.Warning">
+            <summary>
+            警告資訊
+            </summary>
+        </member>
+        <member name="F:LogManager.LogWriter.LogType.Error">
+            <summary>
+            錯誤資訊
+            </summary>
+        </member>
+        <member name="F:LogManager.LogWriter.LogType.Exception">
+            <summary>
+            例外處裡資訊
+            </summary>
+        </member>
+        <member name="F:LogManager.LogWriter.LogType.System">
+            <summary>
+            系統資訊
+            </summary>
+        </member>
+        <member name="T:LogManager.LogWriter.LogInfo">
+            <summary>
+            Log資訊
+            </summary>
+        </member>
+        <member name="F:LogManager.LogWriter.LogInfo.Message">
+            <summary>
+            訊息
+            </summary>
+        </member>
+        <member name="F:LogManager.LogWriter.LogInfo.Type">
+            <summary>
+            Log型態
+            </summary>
+        </member>
+        <member name="M:LogManager.LogWriter.LogInfo.#ctor(System.String,LogManager.LogWriter.LogType)">
+            <summary>
+            建構式
+            </summary>
+            <param name="msg">訊息</param>
+            <param name="type">Log型態</param>
+        </member>
         <member name="M:LogManager.LogWriter.Init(System.String)">
             <summary>
             初始化
@@ -107,9 +164,33 @@
         </member>
         <member name="M:LogManager.LogWriter.WriteLog(System.String)">
             <summary>
-            加入log訊息
+            寫入一般log訊息
             </summary>
-            <param name="logMessage">訊息</param>
+            <param name="message">訊息</param>
+        </member>
+        <member name="M:LogManager.LogWriter.WriteInfoLog(System.String)">
+            <summary>
+            寫入information訊息
+            </summary>
+            <param name="message">訊息</param>
+        </member>
+        <member name="M:LogManager.LogWriter.WriteWarningLog(System.String)">
+            <summary>
+            寫入警告訊息
+            </summary>
+            <param name="message">訊息</param>
+        </member>
+        <member name="M:LogManager.LogWriter.WriteErrorLog(System.String)">
+            <summary>
+            寫入錯誤訊息
+            </summary>
+            <param name="message">訊息</param>
+        </member>
+        <member name="M:LogManager.LogWriter.WriteExceptionLog(System.String)">
+            <summary>
+            寫入例外訊息
+            </summary>
+            <param name="message">訊息</param>
         </member>
     </members>
 </doc>
