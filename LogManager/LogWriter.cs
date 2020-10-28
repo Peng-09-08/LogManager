@@ -139,8 +139,8 @@ namespace LogManager
         {
             _isRun = false;
             _logBuffer.Clear();
-            _writer.Close();
-            //_writer = null;
+            if (_writer != null)
+                _writer.Close();
         }
 
         /// <summary>

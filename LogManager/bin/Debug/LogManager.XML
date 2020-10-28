@@ -164,7 +164,31 @@
         </member>
         <member name="M:LogManager.LogWriter.WriteLog(System.String)">
             <summary>
-            加入log訊息
+            寫入一般log訊息
+            </summary>
+            <param name="message">訊息</param>
+        </member>
+        <member name="M:LogManager.LogWriter.WriteInfoLog(System.String)">
+            <summary>
+            寫入information訊息
+            </summary>
+            <param name="message">訊息</param>
+        </member>
+        <member name="M:LogManager.LogWriter.WriteWarningLog(System.String)">
+            <summary>
+            寫入警告訊息
+            </summary>
+            <param name="message">訊息</param>
+        </member>
+        <member name="M:LogManager.LogWriter.WriteErrorLog(System.String)">
+            <summary>
+            寫入錯誤訊息
+            </summary>
+            <param name="message">訊息</param>
+        </member>
+        <member name="M:LogManager.LogWriter.WriteExceptionLog(System.String)">
+            <summary>
+            寫入例外訊息
             </summary>
             <param name="message">訊息</param>
         </member>
