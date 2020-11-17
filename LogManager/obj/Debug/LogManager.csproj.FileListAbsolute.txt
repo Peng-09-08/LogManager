@@ -1,6 +1,0 @@
-D:\LogManager\LogManager\bin\Debug\LogManager.dll
-D:\LogManager\LogManager\bin\Debug\LogManager.pdb
-D:\LogManager\LogManager\obj\Debug\LogManager.csprojResolveAssemblyReference.cache
-D:\LogManager\LogManager\obj\Debug\LogManager.dll
-D:\LogManager\LogManager\obj\Debug\LogManager.pdb
-D:\LogManager\LogManager\bin\Debug\LogManager.XML
